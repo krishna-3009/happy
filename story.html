@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Story 💞</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 3rem 1rem;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+      animation: fadeIn 1.5s ease;
+    }
+
+    p {
+      font-size: 1.3rem;
+      max-width: 700px;
+      margin: auto;
+      line-height: 1.8;
+      animation: fadeInUp 2s ease;
+    }
+
+    .back-link {
+      margin-top: 2rem;
+      display: inline-block;
+      background: #ffb6b9;
+      color: white;
+      text-decoration: none;
+      padding: 0.7rem 1.3rem;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      transition: background 0.3s;
+    }
+
+    .back-link:hover {
+      background: #fa7e8e;
+    }
+
+    audio {
+      display: none;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+     .link {
+      margin-top: 1rem;
+      display: inline-block;
+      font-size: 1.1rem;
+      color: #fff;
+      background: #ff69b4;
+      padding: 0.6rem 1.1rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="assets/you-and-me.mp3" type="audio/mp3" />
+  </audio>
+
+  <h1>Our Love Story 💖</h1>
+  <p>
+    From the first time we met, I knew there was something magical about you. <br />
+    Every smile, every touch, every memory we've created has been the most precious gift. <br />
+    On this special day, I want you to know how deeply you're loved. <br />
+    This is just the beginning of a lifetime of happiness, together. 💑
+  </p>
+  <a href="letter.html" class="link">Click here to read the Love letter💌</a>
+  <a href="index.html" class="back-link">← Back to Home</a>
+</body>
+</html>
